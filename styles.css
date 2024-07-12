@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:white;
+}
+
+header {
+    background-color:rgb(203, 203, 203);
+    color:green;
+    padding: 1rem;
+    text-align: center;
+    width: 1520px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.hero {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: pink;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+div {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+div h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+ p {
+    font-size: 1.1rem;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items:center; 
+    padding: 100px;
+    border: 50px solid rgb(203, 203, 203);
+    width: 1520px;
+}
+
+.flex-item {
+     
+    padding: 10px;
+    margin: 10px;
+    width: 1520px; 
+    align-items: center;
+
+ 
+}
+
+@media screen and (min-width: 1165px) {
+    .flex-container {
+        display: flex;
+    }
+}
+
+#filters {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filter-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-button:hover {
+    background-color: #777;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}

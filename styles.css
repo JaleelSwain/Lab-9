@@ -138,14 +138,8 @@ footer {
     background-color: #777;
 }
 
-#gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .image-container {
-    width: 200px;
+    width: 400px;
     height: 200px;
     margin: 10px;
     overflow: hidden;
